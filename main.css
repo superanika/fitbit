@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    min-height: 100vh;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.title {
+    padding: 0 20px;
+}
+.flag {
+    width: 40px;
+    height: 40px;
+}
+.main_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    padding: 0;
+}
+.ranking {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+    margin-top: 20px;
+}
+.position {
+    width: 30px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 2;
+}
+.gold {
+    background-image: url("images/gold.png");
+    width: 30px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.silver {
+    background-image: url("images/silver.png");
+    width: 30px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;}
+.bronze {
+    background-image: url("images/bronze.png");
+    width: 30px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.no_badge {
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.fullname {
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+    margin: 10px 30px;
+    height: 30px;
+    width: 200px;
+}
+.status {
+    width: 20px;
+    height: 20px;
+}
+
+.footer {
+    padding-top: 45px;
+    text-align: center;
+    font-size: 12px;
+}
+@media all and (max-width: 462px) {
+    .title {
+        font-size: 18px;
+    }
+    .fullname {
+        font-size: 16px;
+    }
+    .status {
+        width: 15px;
+        height: 15px;
+    }
+    .position {
+        width: 25px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .no_badge {
+        height: 25px;
+    }
+}
